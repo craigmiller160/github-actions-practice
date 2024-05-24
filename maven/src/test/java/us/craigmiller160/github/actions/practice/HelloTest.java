@@ -9,6 +9,6 @@ public class HelloTest {
     @Test
     public void test_sayHello() {
         final var hello = new Hello();
-        assertEquals("Hello World", hello.sayHello());
+        assertEquals("Hello World!", hello.sayHello());
     }
 }

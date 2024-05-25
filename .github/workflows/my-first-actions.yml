@@ -40,4 +40,4 @@ jobs:
           name: files
           path: ./files/name.txt
       - run: echo "Hello World!!"
-      - run: echo "The NAME env variable is $(cat name.txt)"
+      - run: echo "The NAME env variable is $(cat ./files/name.txt)"

@@ -2,3 +2,4 @@
 *.iml
 maven/target
 npm/node_modules
+npm/build

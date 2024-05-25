@@ -1,3 +1,4 @@
 .idea
 *.iml
 maven/target
+npm/node_modules

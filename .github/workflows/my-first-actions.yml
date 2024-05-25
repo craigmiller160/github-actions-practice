@@ -1,7 +1,9 @@
 name: My First Actions
 run-name: ${{ github.actor }} is testing out GitHub Actions
 on:
-  - push
+  push:
+    branches:
+      - main
 jobs:
   intro:
     runs-on: ubuntu-latest
